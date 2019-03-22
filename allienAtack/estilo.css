@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+.GameOver{
+    font-family:"ZCOOL XiaoWei";
+    position: absolute;
+    top:35%;
+    left: 25%;
+    display: none;
+}
+.GameOver h2{
+    color: aliceblue;
+    font-size:35px
+}
+a{
+    color: rgb(22, 234, 241);
+    font-size:16px;
+    margin-left:5px;
+    
+}
+.All{
+    cursor: none;
+}
