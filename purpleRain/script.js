@@ -82,6 +82,9 @@ function ExibePingos(){
     requestAnimationFrame(ExibePingos)
 }
 
+/* aqui eu adicionei um escutador a janela(resize)(quando a janela for redimencionada),
+essa função aumenta o canvas,como declarado mais acima do código
+*/
 window.addEventListener("resize",function(){
     renderizaCanvas()
 })
